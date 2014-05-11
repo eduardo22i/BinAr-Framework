@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4DC1D6B7-706F-456B-BAAF-7371BA870650</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BinAr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F3E6C3C3-0037-45A4-99AE-CDC9040AA687</key>
+		<string>https://github.com/eduardo22i/BinAr-Framework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BinAr.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F3E6C3C3-0037-45A4-99AE-CDC9040AA687</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eduardo22i/BinAr-Framework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F3E6C3C3-0037-45A4-99AE-CDC9040AA687</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F3E6C3C3-0037-45A4-99AE-CDC9040AA687</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BinAr Framework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
