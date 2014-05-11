@@ -1,9 +1,8 @@
 {
   "images" : [
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "iconiphone retina-01.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
@@ -14,7 +13,7 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "iconiphone retina-01-1.png",
+      "filename" : "ICON IPHONE RETINA.png",
       "scale" : "2x"
     },
     {
@@ -40,13 +39,13 @@
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "icon ipad.png",
+      "filename" : "ICON IPAD2- Copy.png",
       "scale" : "1x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "iconipad retina-02-1.png",
+      "filename" : "ICON IPAD RETINA-01.png",
       "scale" : "2x"
     }
   ],

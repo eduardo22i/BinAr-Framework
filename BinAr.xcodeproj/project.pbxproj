@@ -32,6 +32,8 @@
 		8AFB8A40151895C600A42DEE /* CameraCalibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AFB8A3F151895C600A42DEE /* CameraCalibration.cpp */; };
 		8AFB8A421518CA1D00A42DEE /* GeometryTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AFB8A411518CA1D00A42DEE /* GeometryTypes.cpp */; };
 		F965F1EC191F0AEE009652BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F965F1EB191F0AEE009652BD /* Images.xcassets */; };
+		F965F1F0191F1CFE009652BD /* ICON IPHONE RETINA.png in Resources */ = {isa = PBXBuildFile; fileRef = F965F1EF191F1CFE009652BD /* ICON IPHONE RETINA.png */; };
+		F965F1F2191F1D11009652BD /* iconipad retina-02.png in Resources */ = {isa = PBXBuildFile; fileRef = F965F1F1191F1D11009652BD /* iconipad retina-02.png */; };
 		F9D722FA1919F839003259D7 /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9D722F41919F839003259D7 /* banana.jpg */; };
 		F9D722FB1919F839003259D7 /* banana.obj in Resources */ = {isa = PBXBuildFile; fileRef = F9D722F51919F839003259D7 /* banana.obj */; };
 		F9D722FC1919F839003259D7 /* cube.obj in Resources */ = {isa = PBXBuildFile; fileRef = F9D722F71919F839003259D7 /* cube.obj */; };
@@ -80,6 +82,8 @@
 		8AFB8A3F151895C600A42DEE /* CameraCalibration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CameraCalibration.cpp; sourceTree = "<group>"; };
 		8AFB8A411518CA1D00A42DEE /* GeometryTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryTypes.cpp; sourceTree = "<group>"; };
 		F965F1EB191F0AEE009652BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BinAr/Images.xcassets; sourceTree = "<group>"; };
+		F965F1EF191F1CFE009652BD /* ICON IPHONE RETINA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICON IPHONE RETINA.png"; sourceTree = "<group>"; };
+		F965F1F1191F1D11009652BD /* iconipad retina-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconipad retina-02.png"; sourceTree = "<group>"; };
 		F9D722F31919F839003259D7 /* banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = banana.h; sourceTree = "<group>"; };
 		F9D722F41919F839003259D7 /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
 		F9D722F51919F839003259D7 /* banana.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = banana.obj; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 		8ADAC4291504BC61008B5F2A = {
 			isa = PBXGroup;
 			children = (
+				F965F1ED191F1CFE009652BD /* Resources */,
 				F965F1EB191F0AEE009652BD /* Images.xcassets */,
 				F9D722F21919F839003259D7 /* obj2opengl-master */,
 				8ADAC43E1504BC61008B5F2A /* Example_MarkerBasedAR */,
@@ -213,6 +218,23 @@
 			name = VideoSource;
 			sourceTree = "<group>";
 		};
+		F965F1ED191F1CFE009652BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F965F1EE191F1CFE009652BD /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F965F1EE191F1CFE009652BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F965F1F1191F1D11009652BD /* iconipad retina-02.png */,
+				F965F1EF191F1CFE009652BD /* ICON IPHONE RETINA.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F9D722F21919F839003259D7 /* obj2opengl-master */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +302,8 @@
 			files = (
 				F965F1EC191F0AEE009652BD /* Images.xcassets in Resources */,
 				F9D722FC1919F839003259D7 /* cube.obj in Resources */,
+				F965F1F2191F1D11009652BD /* iconipad retina-02.png in Resources */,
+				F965F1F0191F1CFE009652BD /* ICON IPHONE RETINA.png in Resources */,
 				F9D722FE1919F839003259D7 /* obj2opengl.pl in Resources */,
 				8ADAC4431504BC61008B5F2A /* InfoPlist.strings in Resources */,
 				8ADAC44C1504BC61008B5F2A /* MainStoryboard_iPhone.storyboard in Resources */,

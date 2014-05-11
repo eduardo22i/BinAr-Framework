@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wtH-73-i30">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
@@ -39,14 +39,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Xz-BO-Ehd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconipad retina-02.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Xz-BO-Ehd">
                                 <rect key="frame" x="85" y="102" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="4IF-Ky-w3p"/>
+                                    <constraint firstAttribute="width" constant="150" id="LpA-P3-lEX"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4v-3Z-hwG">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4v-3Z-hwG">
                                 <rect key="frame" x="137" y="418" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Start">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -56,6 +60,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="9Xz-BO-Ehd" firstAttribute="centerX" secondItem="OiN-KA-py1" secondAttribute="centerX" id="DQe-AB-Pzg"/>
+                            <constraint firstItem="9Xz-BO-Ehd" firstAttribute="top" secondItem="OiN-KA-py1" secondAttribute="top" constant="102" id="LbK-R3-nl5"/>
                             <constraint firstAttribute="bottom" secondItem="G4v-3Z-hwG" secondAttribute="bottom" constant="32" id="ZmE-QG-sbD"/>
                             <constraint firstAttribute="centerX" secondItem="G4v-3Z-hwG" secondAttribute="centerX" id="bZp-El-OmS"/>
                         </constraints>
@@ -85,6 +91,9 @@
             <point key="canvasLocation" x="-295" y="-30"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iconipad retina-02.png" width="152" height="152"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
